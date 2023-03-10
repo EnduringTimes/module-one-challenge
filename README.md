@@ -1,5 +1,7 @@
 # Module one challenge
 
+![127 0 0 1_5500_classwork_gitlab%20repo_01-HTML-Git-CSS_02-Challenge_Develop_index html](https://user-images.githubusercontent.com/125426718/224230338-43fc80e7-5962-44ec-801b-fa391a216e82.png)
+
 ```
 In this challenge we were tasked with refactoring code to make the web page 
 meet accessibility requirements across the board.
@@ -34,7 +36,7 @@ copies of the Software, and to permit persons to whom the Software is
 furnished to do so, subject to the following conditions:
 
 The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.![127 0 0 1_5500_classwork_gitlab%20repo_01-HTML-Git-CSS_02-Challenge_Develop_index html](https://user-images.githubusercontent.com/125426718/224230338-43fc80e7-5962-44ec-801b-fa391a216e82.png)
+copies or substantial portions of the Software.
 
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
