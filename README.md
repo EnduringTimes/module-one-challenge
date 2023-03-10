@@ -5,7 +5,7 @@
 ```
 In this challenge we were tasked with refactoring code to make the web page 
 meet accessibility requirements across the board for a client. I also cleaned up the code and 
-fixed any problems I came across, while doing my best to leave it better than I found it.
+fixed any problems I came across while doing my best to leave it better than I found it.
 
 
 ```
