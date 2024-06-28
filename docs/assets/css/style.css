@@ -1,47 +1,64 @@
-*{
+/* Reset and basic styles */
+* {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
+
 body {
-    background-color: #d9dcd6;
+    background-color: #fffcf0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-/* changed all background colors for easier contrast visibility and also the seo in the h1 header */
+
+/* Header styles */
 .header {
     padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #3068e3;
-    color: #ffffff91;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
+/* Added text-shadow to enhance readability */
 .header h1 {
-    display: inline-block;
     font-size: 48px;
     color: #ffffff;
+    text-shadow: #0000005d 2px 2px;
 }
+
 .header h1 .seo {
-    color:rgb(248, 248, 100);
+    color: rgb(255, 214, 78);
+    
 }
-.header div {
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
+
+nav {
+    display: flex;
+    align-items: center;
 }
-.header div ul {
+
+nav ul {
     list-style-type: none;
+    display: flex;
+    margin: 0;
 }
-.header div ul li {
-    display: inline-block;
+
+nav ul li {
     margin-left: 25px;
 }
-a {
+
+nav ul li a {
     color: #ffffff;
     text-decoration: none;
+    font-size: 23.5px;
 }
-p {
-    font-size: 18px;
+
+/* Add hover effect for navigation links */
+nav ul li a:hover {
+    color: #ffcc00;
 }
+
+/* Hero section */
 .hero {
     height: 800px;
     width: 100%;
@@ -49,101 +66,138 @@ p {
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
+    border-top: #235cd6 8px solid;
+    border-bottom: #235cd6 8px solid;
 }
-.float-left {
-    float: left;
+
+/* Container for content and benefits */
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+/* Content sections */
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    padding: 15px;
+}
+
+.section {
+    display: flex;
+    margin-bottom: 20px;
+    padding: 50px;
+    background-color: #3068e3;
+    color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 4px 4px 5px #000000aa;
+}
+
+.section img {
     margin-right: 25px;
     border-radius: 8px;
     width: 300px;
     height: 200px;
     object-fit: cover;
 }
-.float-right {
-    float: left;
-    margin-left: 25px;
+
+.section .text-content {
+    flex: 1;
 }
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
+
+.section h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
 }
+
+.section p {
+    font-size: 18px;
+}
+
+/* Benefits section */
 .benefits {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
     background-color: #3068e3;
-}
-.benefits {
-    margin-bottom: 32px;
     color: #ffffff;
     text-align: center;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    box-shadow: 4px 4px 5px #000000aa;
 }
-.benefits h3 {
-    margin-block: 10px;
-    text-align: center;
-    padding: 16px;
+
+.benefit {
+    margin-bottom: 32px;
 }
-.benefits img {
+
+.benefit h3 {
+    font-size: larger;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #143272;
+    border-radius: 10px;
+}
+
+.benefit img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-/* removed redundant code */
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #3068e3;
-    color: #ffffff;
+
+.benefit p {
+    font-size: 18px;
+    background-color: #14337270;
+    border-radius: 5px;
+    padding: 5px;
+    border: inset 2px #759cf0;
 }
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #3068e3;
-    color: #ffffff;
-}
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #3068e3;
-    color: #ffffff;
-}
-.search-engine-optimization img {
-    max-height: 200px;
-}
-.online-reputation-management img {
-    max-height: 200px;
-}
-.social-media-marketing img {
-    max-height: 200px;
-}
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
+
+/* Footer styles */
 .footer {
     padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
+    background-color: #3068e3;
+    color: #ffffff;
 }
+
 .footer h2 {
     font-size: 20px;
+}
+
+/* Emoji styles by George Park */
+.emoji::after {
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.hearts::after {
+    content: '💗';
+    animation-name: hearts;
+    animation-duration: 3s;
+}
+
+@keyframes hearts {
+    16.666% {
+        content: '🧡';
+    }
+
+    33.333% {
+        content: '💛';
+    }
+
+    50% {
+        content: '💚';
+    }
+
+    66.666% {
+        content: '💙';
+    }
+
+    83.333% {
+        content: '💜';
+    }
 }
