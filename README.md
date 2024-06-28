@@ -1,6 +1,6 @@
 # Module one challenge
 
-![127 0 0 1_5500_classwork_gitlab%20repo_01-HTML-Git-CSS_02-Challenge_Develop_index html](https://user-images.githubusercontent.com/125426718/224230338-43fc80e7-5962-44ec-801b-fa391a216e82.png)
+![Screenshot](docs/assets/images/SEO5.png)
 
 ```
 In this challenge we were tasked with refactoring code to make the web page 
@@ -21,13 +21,15 @@ https://wave.webaim.org/extension/
 
 https://www.makeareadme.com/
 
+https://codepen.io/GeorgePark/pen/aazBGj (for emoji animations)
+
 ```
 
 ## License
 ```
 MIT License
 
-Copyright (c) [year] [Horiseon]
+Copyright (c) [2024] [Horiseon]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
